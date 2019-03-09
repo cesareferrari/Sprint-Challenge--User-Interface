@@ -168,7 +168,7 @@ header {
   font-size: 14px;
 }
 
-.navigation nav a:hover {
+.navigation nav a:hover, .navigation nav a.active {
   color: darkgray;
 }
 
@@ -259,3 +259,4 @@ header {
   border: 1px solid black;
   border-radius: 8px;
 }
+
