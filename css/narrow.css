@@ -54,7 +54,7 @@
     flex-direction: column;
   }
 
-  .text-container {
+  .top-content .text-container {
     width: 100%;
   }
 
@@ -67,6 +67,7 @@
   }
 
   .bottom-content .text-container {
+    width: 100%;
     padding-right: 0;
     padding-bottom: 30px;
   }

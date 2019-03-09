@@ -237,7 +237,7 @@ header {
 
 .info-box {
   margin-bottom: 60px;
-  width: 370px;
+  max-width: 370px;
   border-bottom: 1px dashed black;
   padding-bottom: 20px;
 }
@@ -245,6 +245,7 @@ header {
 .info-box img {
   display: block;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .info-box p {
