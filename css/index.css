@@ -145,6 +145,10 @@ footer nav a {
     text-decoration: none;
 }
 
+header {
+  margin-bottom: 20px;
+}
+
 .navigation {
   display: flex;
   align-items: flex-end;
