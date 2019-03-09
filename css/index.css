@@ -258,5 +258,13 @@ header {
   color: black;
   border: 1px solid black;
   border-radius: 8px;
+  background-color: white;
+}
+
+.more:hover {
+  background-color: darkred;
+  color: white;
+  border: 1px solid darkred;
+  transition: color 600ms, background-color 600ms, border 600ms;
 }
 
