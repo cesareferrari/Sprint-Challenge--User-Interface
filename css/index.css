@@ -222,6 +222,12 @@ header {
   margin-bottom: 30px;
 }
 
+.work {
+  border-bottom: none;
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
+
 .info-boxes {
   padding: 0 15px;
   display: flex;
