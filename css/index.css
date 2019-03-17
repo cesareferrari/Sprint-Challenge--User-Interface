@@ -144,3 +144,128 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+  margin-bottom: 20px;
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.navigation nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.navigation nav a:hover, .navigation nav a.active {
+  color: darkgray;
+}
+
+.box {
+  color: white;
+}
+
+#box1 {
+  background-color: teal;
+}
+
+#box2 {
+  background-color: gold;
+}
+
+#box3 {
+  background-color: cadetblue;
+}
+
+#box4 {
+  background-color: coral;
+}
+
+#box5 {
+  background-color: crimson;
+}
+
+#box6 {
+  background-color: forestgreen;
+}
+
+#box7 {
+  background-color: darkorchid;
+}
+
+#box8 {
+  background-color: hotpink;
+}
+
+#box9 {
+  background-color: indigo;
+}
+
+#box10 {
+  background-color: dodgerblue;
+}
+
+.about {
+  padding: 0 20px 20px;
+  border-bottom: 1px dashed black;
+  margin-bottom: 30px;
+}
+
+.work {
+  border-bottom: none;
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
+
+.info-boxes {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info-box {
+  margin-bottom: 60px;
+  max-width: 370px;
+  border-bottom: 1px dashed black;
+  padding-bottom: 20px;
+}
+
+.info-box img {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.info-box p {
+  margin-bottom: 20px;
+}
+
+.more {
+  display: inline-block;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.more:hover {
+  background-color: darkred;
+  color: white;
+  border: 1px solid darkred;
+  transition: color 600ms, background-color 600ms, border 600ms;
+}
+
